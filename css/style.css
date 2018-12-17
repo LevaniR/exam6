@@ -333,7 +333,7 @@ display: none;
     opacity: 0.6;
 } 
 .mob-social {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -375,6 +375,9 @@ display: none;
 .contact-section {
     width: 940px;
 }
+.mob-social {
+    display: none;
+}
 
 
 
@@ -405,6 +408,9 @@ display: none;
     margin-top: 25px;
     margin-left: 0;
 }
+.mob-social {
+    display: none;
+}
 
 
 
@@ -425,6 +431,9 @@ display: none;
 }
 .input-message {
     width: 330px;
+}
+.mob-social {
+    display: none;
 }
 
 
@@ -454,6 +463,10 @@ display: none;
 .input-message {
     width: 250px;
 }
+.mob-social {
+    display: flex;
+}
+
 
 /*RESPONSIVE*/
 /*------------------------------------------------------------*/
